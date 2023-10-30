@@ -227,3 +227,24 @@
     transform: rotate(0deg);
   }
 }
+
+.element::-webkit-scrollbar {
+  width: 12px;
+ }
+ 
+ .element::-webkit-scrollbar-track {
+  background: #f1f1f1;
+ }
+ 
+ .element::-webkit-scrollbar-thumb {
+  background: #888;
+ }
+ 
+ .element::-webkit-scrollbar-thumb:hover {
+  background: #555;
+ }
+ 
+ .element {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+ }
