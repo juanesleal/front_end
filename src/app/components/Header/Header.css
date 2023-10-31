@@ -20,12 +20,19 @@
    
    .nav {
     display: flex;
-    width: 35.58rem;
+    width: 46.58rem;
+    height: 2.125rem;
     justify-content: flex-end;
     align-items: center;
-    gap: .75rem;
+    gap: 2.75rem;
+    flex-shrink: 0;
    }
    
+   .buttons{
+    display: flex;
+    align-items: flex-start;
+    /* gap: 1rem; */
+   }
    .nav button{
     color: var(--color-dark-grey-neutral-deactive, #808191);
     font-family: Inter;
@@ -35,6 +42,7 @@
     line-height: 160%; /* 2rem */
     border: none;
     background: var(--dark-dark-1, #181A20);
+    display: flex;
     
     
    }
@@ -75,15 +83,15 @@
     align-items: center;
     gap: 0.5rem;
     color: var(--others-white, #FFF);
-font-family: Inter;
-font-size: 1rem;
-font-style: normal;
-font-weight: 700;
-line-height: 160%; /* 1.6rem */
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 1.6rem */
    }
    
    .coins {
-    margin-left: 2.75 rem;
+   
     border-radius: 2.5rem;
     border: 1px solid var(--gradients-gradient-yellow, #FACC15);
     background: var(--dark-dark-1, #181A20);

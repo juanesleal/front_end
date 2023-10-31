@@ -1,7 +1,7 @@
 import React from 'react'
 import '/src/app/components/Header/Header.css'
 import Image from 'next/image'
-import header from '/src/app/assets/quest-header.png'
+import top from '/src/app/assets/top.png'
 import logo from '/src/app/assets/Logo.jpg'
 // import { React, useState } from 'react'
 
@@ -17,11 +17,14 @@ export default function Mission() {
     return (
 
         <div className='quest'>
+            <div className='top'>
+                <Image
+                    src={top}
+                    alt='User Avatar' />
 
+            </div>
             {/* <img src={header}></img> */}
-            <Image
-                src={logo}
-                alt='User Avatar' />
+
         </div >
     )
 }
