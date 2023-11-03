@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import { Grid } from '@mui/material'
 import styles from './page.module.css'
-import Header from './components/Header/Header'
-import Mission from './components/Mission/Mission'
-import QuestHeader from './components/Mission/QuestHeader'
+import Header from './src/app/components/Header/Header'
+import Mission from './src/app/components/Mission/Mission'
+import QuestHeader from './src/app/components/Mission/QuestHeader'
 
 export default function Home() {
   return (
